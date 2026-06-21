@@ -1,16 +1,14 @@
-## Hi there 👋
+# Hi, I'm Henry 👋
 
-<!--
-**henry-d-huynh/henry-d-huynh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build serverless things on AWS.
 
-Here are some ideas to get you started:
+Right now that's **Scaffy**: a developer-first headless CMS you self-host
+on your own AWS account. Define your content in TypeScript, deploy once,
+and run it for next to nothing. Going open source as it matures.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I'm building it in public and writing up the architecture, the AWS
+plumbing, and the decisions I get right and wrong along the way:
+
+**→ [henners.io](https://henners.io)**
+
+I'm also open to work right now. If your team is hiring, let's talk.
