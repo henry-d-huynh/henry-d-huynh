@@ -6,9 +6,12 @@
 
 <p align="center">
   <a href="https://henners.io"><img src="https://img.shields.io/badge/Blog-henners.io-2563eb?style=flat-square&logo=hashnode&logoColor=white" alt="Blog"></a>
-  <img src="https://img.shields.io/badge/AWS-Serverless-ff9900?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS">
-  <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <a href="https://www.linkedin.com/in/henners-io/"><img src="https://img.shields.io/badge/LinkedIn-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <img src="https://img.shields.io/badge/Open%20to%20work-22c55e?style=flat-square" alt="Open to work">
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,ts,nodejs,react,dynamodb,vite" alt="Tech stack">
 </p>
 
 ---
