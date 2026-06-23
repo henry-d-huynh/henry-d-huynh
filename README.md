@@ -34,3 +34,7 @@ plumbing, and the decisions I get right and wrong along the way.
 ### 💬 Let's talk
 
 I'm also open to work right now. If your team is hiring, let's talk.
+
+<p align="center">
+  <a href="https://henners.io/contact"><b>→ Get in touch</b></a>
+</p>
