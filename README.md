@@ -11,7 +11,6 @@
 [![HeadsUp](https://img.shields.io/badge/HeadsUp-headsup.rsvp-2563eb?style=for-the-badge&logo=googlemessages&logoColor=white)](https://headsup.rsvp)
 [![Blog](https://img.shields.io/badge/Build%20log-henners.io-0f172a?style=for-the-badge&logo=hashnode&logoColor=white)](https://henners.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/henners-io/)
-[![Open to work](https://img.shields.io/badge/Open%20to-work-22c55e?style=for-the-badge)](https://henners.io/contact)
 
 </div>
 
@@ -79,7 +78,7 @@ Cognito for auth, CloudFront + S3 for the edge, and a bill that rounds to zero u
 
 ## 💬 Let's talk
 
-Hiring, or just want to swap serverless war stories? I'm open to work and always up for a chat.
+Hiring, or just want to swap serverless war stories? I'm always up for a chat.
 
 <div align="center">
 
