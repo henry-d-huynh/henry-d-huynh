@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,45:2563eb,100:22d3ee&height=210&section=header&text=Henners&fontSize=68&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Founder%20of%20HeadsUp%20RSVP&descAlignY=58&descSize=20" width="100%" alt="Henners: founder of HeadsUp RSVP"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:201D1B,45:FF3D8F,100:D42871&height=210&section=header&text=Henners&fontSize=68&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Founder%20of%20HeadsUp%20RSVP&descAlignY=58&descSize=20" width="100%" alt="Henners: founder of HeadsUp RSVP"/>
 
 <a href="https://headsup.rsvp">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=600&lines=Founder+of+HeadsUp+RSVP+%F0%9F%93%B1;SMS-first+invites.+Per-guest+RSVP+tracking.;TypeScript+%2B+AWS%2C+end+to+end.;Live+across+Australia+%F0%9F%87%A6%F0%9F%87%BA" alt="Founder of HeadsUp RSVP"/>
@@ -8,8 +8,8 @@
 
 <br/>
 
-[![HeadsUp](https://img.shields.io/badge/HeadsUp-headsup.rsvp-2563eb?style=for-the-badge&logo=googlemessages&logoColor=white)](https://headsup.rsvp)
-[![Blog](https://img.shields.io/badge/Build%20log-henners.io-0f172a?style=for-the-badge&logo=hashnode&logoColor=white)](https://henners.io)
+[![HeadsUp](https://img.shields.io/badge/HeadsUp-headsup.rsvp-FF3D8F?style=for-the-badge&logo=googlemessages&logoColor=white)](https://headsup.rsvp)
+[![Blog](https://img.shields.io/badge/Build%20log-henners.io-201D1B?style=for-the-badge&logo=hashnode&logoColor=white)](https://henners.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/henners-io/)
 
 </div>
@@ -64,11 +64,11 @@ Cognito for auth, CloudFront + S3 for the edge, and a bill that rounds to zero u
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=henry-d-huynh&hide_border=true&background=00000000&ring=2563eb&fire=22d3ee&currStreakLabel=2563eb&sideLabels=64748b&sideNums=2563eb&currStreakNum=2563eb&dates=64748b" alt="Contribution streak"/>
+<img src="https://streak-stats.demolab.com?user=henry-d-huynh&hide_border=true&background=00000000&ring=FF3D8F&fire=D42871&currStreakLabel=FF3D8F&sideLabels=64748b&sideNums=FF3D8F&currStreakNum=FF3D8F&dates=64748b" alt="Contribution streak"/>
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=henry-d-huynh&bg_color=00000000&hide_border=true&color=64748b&line=2563eb&point=22d3ee&area=true&area_color=2563eb" width="92%" alt="Contribution activity graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=henry-d-huynh&bg_color=00000000&hide_border=true&color=64748b&line=FF3D8F&point=D42871&area=true&area_color=FF3D8F" width="92%" alt="Contribution activity graph"/>
 
 </div>
 
@@ -82,6 +82,6 @@ Partnerships, press, or just want to swap serverless war stories? I'm always up 
 
 **[→ Get in touch](https://henners.io/contact)**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,55:2563eb,100:0f172a&height=120&section=footer" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:D42871,55:FF3D8F,100:201D1B&height=120&section=footer" width="100%" alt=""/>
 
 </div>
