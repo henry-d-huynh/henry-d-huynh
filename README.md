@@ -20,16 +20,16 @@
 
 > **Get everyone there.**
 
-I'm the founder of **[HeadsUp RSVP](https://headsup.rsvp)**, an RSVP app that turns "who's actually coming?" into a solved problem. Every guest gets a personalised invite page sent by text, and the host gets live per-guest tracking instead of a group-chat black hole.
+I'm the founder of **HeadsUp RSVP**, an RSVP app that turns "who's actually coming?" into a solved problem. Every guest gets a personalised invite page sent by text, and the host gets live per-guest tracking instead of a group-chat black hole.
 
 - 💬 **SMS-first** invites, because nobody opens the fifth app you make them download
 - 🎯 **Per-guest tracking**: sent, seen, replied, coming, with dietaries rolled up for the host
-- 🇦🇺 **Live Australia-wide** and open to everyone at **[headsup.rsvp](https://headsup.rsvp)**
+- 🇦🇺 **Live Australia-wide** and open to everyone at **headsup.rsvp**
 - ⚡ Serverless TypeScript monorepo: React + Vite front, Lambda + DynamoDB back, one CDK stack
 
 <div align="center">
 
-**[→ Send your next invite with HeadsUp](https://headsup.rsvp)**
+<a href="https://headsup.rsvp"><img src="https://img.shields.io/badge/Send%20your%20next%20invite%20with%20HeadsUp%20%E2%86%92-FF3D8F?style=for-the-badge" alt="Send your next invite with HeadsUp"/></a>
 
 </div>
 
@@ -39,7 +39,7 @@ I'm the founder of **[HeadsUp RSVP](https://headsup.rsvp)**, an RSVP app that tu
 
 A developer-first headless CMS you self-host on your own AWS account. Define your content in TypeScript, deploy once, run it for next to nothing. It's on the shelf while HeadsUp has my full attention, but the whole build is written up: the architecture, the AWS plumbing, and the decisions I got right and wrong.
 
-**[→ Read the build log at henners.io](https://henners.io)**
+<a href="https://henners.io"><img src="https://img.shields.io/badge/Read%20the%20build%20log%20at%20henners.io%20%E2%86%92-FF3D8F?style=for-the-badge" alt="Read the build log at henners.io"/></a>
 
 ---
 
@@ -80,7 +80,7 @@ Partnerships, press, or just want to swap serverless war stories? I'm always up 
 
 <div align="center">
 
-**[→ Get in touch](https://henners.io/contact)**
+<a href="https://henners.io/contact"><img src="https://img.shields.io/badge/Get%20in%20touch%20%E2%86%92-FF3D8F?style=for-the-badge" alt="Get in touch"/></a>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FF3D8F&height=120&section=footer" width="100%" alt=""/>
 
