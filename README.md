@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,45:2563eb,100:22d3ee&height=210&section=header&text=Henners&fontSize=68&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=I%20ship%20serverless%20products%20on%20AWS&descAlignY=58&descSize=20" width="100%" alt="Henners: I ship serverless products on AWS"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,45:2563eb,100:22d3ee&height=210&section=header&text=Henners&fontSize=68&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Founder%20of%20HeadsUp&descAlignY=58&descSize=20" width="100%" alt="Henners: founder of HeadsUp"/>
 
 <a href="https://headsup.rsvp">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=600&lines=Building+HeadsUp+%F0%9F%93%B1+my+first+commercial+SaaS;SMS-first+invites.+Per-guest+RSVP+tracking.;TypeScript+%2B+AWS%2C+end+to+end.;Launching+across+Australia+%F0%9F%87%A6%F0%9F%87%BA" alt="Building HeadsUp, my first commercial SaaS"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=600&lines=Founder+of+HeadsUp+%F0%9F%93%B1;SMS-first+invites.+Per-guest+RSVP+tracking.;TypeScript+%2B+AWS%2C+end+to+end.;Live+across+Australia+%F0%9F%87%A6%F0%9F%87%BA" alt="Founder of HeadsUp"/>
 </a>
 
 <br/>
@@ -16,22 +16,22 @@
 
 <br/>
 
-## 📱 Now: HeadsUp
+## 📱 HeadsUp
 
 > **Get everyone there.**
 
-**[HeadsUp](https://headsup.rsvp)** is my first commercial SaaS: an RSVP app that turns "who's actually coming?" into a solved problem. Every guest gets a personalised invite page sent by text, and the host gets live per-guest tracking instead of a group-chat black hole.
+I'm the founder of **[HeadsUp](https://headsup.rsvp)**, an RSVP app that turns "who's actually coming?" into a solved problem. Every guest gets a personalised invite page sent by text, and the host gets live per-guest tracking instead of a group-chat black hole.
 
 - 💬 **SMS-first** invites, because nobody opens the fifth app you make them download
 - 🎯 **Per-guest tracking**: sent, seen, replied, coming, with dietaries rolled up for the host
-- 🇦🇺 **Launching Australia-wide**, waitlist open now at **[headsup.rsvp](https://headsup.rsvp)**
+- 🇦🇺 **Live Australia-wide** and open to everyone at **[headsup.rsvp](https://headsup.rsvp)**
 - ⚡ Serverless TypeScript monorepo: React + Vite front, Lambda + DynamoDB back, one CDK stack
 
-Closed source while it grows up, but I write about building it in the open.
+Closed source, but I write about building it in the open.
 
 <div align="center">
 
-**[→ Join the waitlist at headsup.rsvp](https://headsup.rsvp)**
+**[→ Send your next invite with HeadsUp](https://headsup.rsvp)**
 
 </div>
 
@@ -78,7 +78,7 @@ Cognito for auth, CloudFront + S3 for the edge, and a bill that rounds to zero u
 
 ## 💬 Let's talk
 
-Hiring, or just want to swap serverless war stories? I'm always up for a chat.
+Partnerships, press, or just want to swap serverless war stories? I'm always up for a chat.
 
 <div align="center">
 
