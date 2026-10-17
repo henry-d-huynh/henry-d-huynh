@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,45:2563eb,100:22d3ee&height=210&section=header&text=Henners&fontSize=68&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Founder%20of%20HeadsUp&descAlignY=58&descSize=20" width="100%" alt="Henners: founder of HeadsUp"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,45:2563eb,100:22d3ee&height=210&section=header&text=Henners&fontSize=68&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Founder%20of%20HeadsUp%20RSVP&descAlignY=58&descSize=20" width="100%" alt="Henners: founder of HeadsUp RSVP"/>
 
 <a href="https://headsup.rsvp">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=600&lines=Founder+of+HeadsUp+%F0%9F%93%B1;SMS-first+invites.+Per-guest+RSVP+tracking.;TypeScript+%2B+AWS%2C+end+to+end.;Live+across+Australia+%F0%9F%87%A6%F0%9F%87%BA" alt="Founder of HeadsUp"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=600&lines=Founder+of+HeadsUp+RSVP+%F0%9F%93%B1;SMS-first+invites.+Per-guest+RSVP+tracking.;TypeScript+%2B+AWS%2C+end+to+end.;Live+across+Australia+%F0%9F%87%A6%F0%9F%87%BA" alt="Founder of HeadsUp RSVP"/>
 </a>
 
 <br/>
@@ -16,11 +16,11 @@
 
 <br/>
 
-## 📱 HeadsUp
+## 📱 HeadsUp RSVP
 
 > **Get everyone there.**
 
-I'm the founder of **[HeadsUp](https://headsup.rsvp)**, an RSVP app that turns "who's actually coming?" into a solved problem. Every guest gets a personalised invite page sent by text, and the host gets live per-guest tracking instead of a group-chat black hole.
+I'm the founder of **[HeadsUp RSVP](https://headsup.rsvp)**, an RSVP app that turns "who's actually coming?" into a solved problem. Every guest gets a personalised invite page sent by text, and the host gets live per-guest tracking instead of a group-chat black hole.
 
 - 💬 **SMS-first** invites, because nobody opens the fifth app you make them download
 - 🎯 **Per-guest tracking**: sent, seen, replied, coming, with dietaries rolled up for the host
