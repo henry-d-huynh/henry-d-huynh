@@ -27,8 +27,6 @@ I'm the founder of **[HeadsUp RSVP](https://headsup.rsvp)**, an RSVP app that tu
 - 🇦🇺 **Live Australia-wide** and open to everyone at **[headsup.rsvp](https://headsup.rsvp)**
 - ⚡ Serverless TypeScript monorepo: React + Vite front, Lambda + DynamoDB back, one CDK stack
 
-Closed source, but I write about building it in the open.
-
 <div align="center">
 
 **[→ Send your next invite with HeadsUp](https://headsup.rsvp)**
