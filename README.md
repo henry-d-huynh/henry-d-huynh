@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:201D1B,45:FF3D8F,100:D42871&height=210&section=header&text=Henners&fontSize=68&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Founder%20of%20HeadsUp%20RSVP&descAlignY=58&descSize=20" width="100%" alt="Henners: founder of HeadsUp RSVP"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FF3D8F&height=210&section=header&text=Henners&fontSize=68&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Founder%20of%20HeadsUp%20RSVP&descAlignY=58&descSize=20" width="100%" alt="Henners: founder of HeadsUp RSVP"/>
 
 <a href="https://headsup.rsvp">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=600&lines=Founder+of+HeadsUp+RSVP+%F0%9F%93%B1;SMS-first+invites.+Per-guest+RSVP+tracking.;TypeScript+%2B+AWS%2C+end+to+end.;Live+across+Australia+%F0%9F%87%A6%F0%9F%87%BA" alt="Founder of HeadsUp RSVP"/>
@@ -82,6 +82,6 @@ Partnerships, press, or just want to swap serverless war stories? I'm always up 
 
 **[→ Get in touch](https://henners.io/contact)**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:D42871,55:FF3D8F,100:201D1B&height=120&section=footer" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FF3D8F&height=120&section=footer" width="100%" alt=""/>
 
 </div>
