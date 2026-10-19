@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <g stroke-linejoin="round">
+    <g class="mark-shadow" transform="translate(3.5 3.5)">
+      <g class="mark-back"><rect x="2" y="23.75" width="56" height="12.5" rx="6.25"
+    transform="rotate(38 30 30)" fill="#15121b" stroke="#15121b" stroke-width="3.5"/></g>
+      <g class="mark-front"><rect x="2" y="23.75" width="56" height="12.5" rx="6.25"
+    transform="rotate(128 30 30)" fill="#15121b" stroke="#15121b" stroke-width="3.5"/></g>
+    </g>
+    <g class="mark-bars">
+      <g class="mark-back"><rect x="2" y="23.75" width="56" height="12.5" rx="6.25"
+    transform="rotate(38 30 30)" fill="#ffd23f" stroke="#15121b" stroke-width="3.5"/></g>
+      <g class="mark-front"><rect x="2" y="23.75" width="56" height="12.5" rx="6.25"
+    transform="rotate(128 30 30)" fill="#e438e4" stroke="#15121b" stroke-width="3.5"/></g>
+    </g>
+  </g>
+</svg>

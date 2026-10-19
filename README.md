@@ -1,87 +1,50 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FF3D8F&height=210&section=header&text=Henners&fontSize=68&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Founder%20of%20HeadsUp%20RSVP&descAlignY=58&descSize=20" width="100%" alt="Henners: founder of HeadsUp RSVP"/>
-
-<a href="https://headsup.rsvp">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=FF3D8F&center=true&vCenter=true&width=600&lines=Founder+of+HeadsUp+RSVP+%F0%9F%93%B1;SMS-first+invites.+Per-guest+RSVP+tracking.;TypeScript+%2B+AWS%2C+end+to+end.;Live+across+Australia+%F0%9F%87%A6%F0%9F%87%BA" alt="Founder of HeadsUp RSVP"/>
-</a>
-
-<br/>
-
-[![HeadsUp](https://img.shields.io/badge/HeadsUp-headsup.rsvp-FF3D8F?style=for-the-badge&logo=googlemessages&logoColor=white)](https://headsup.rsvp)
-[![Blog](https://img.shields.io/badge/Build%20log-henners.io-201D1B?style=for-the-badge&logo=hashnode&logoColor=white)](https://henners.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/henners-io/)
+<a href="https://henners.io"><img src="assets/hero.svg" width="100%" alt="Hi, I'm Henners: full-stack developer in Melbourne. I design, build and ship products end to end, from the database schema to the last pixel."/></a>
 
 </div>
 
+I'm Henry, a full-stack developer in Melbourne. I take products from a page of notes to something real people use: the database, the AWS plumbing, the app, and the landing page that sells it. Right now that's **[HeadsUp](https://headsup.rsvp)**, an RSVP app in open beta across Australia, and **[Yeslane](https://yeslane.app)**, a client portal for marketing agencies.
+
+## Stuff I've shipped
+
+<p align="center">
+  <a href="https://henners.io/projects#headsup"><img src="assets/project-headsup.svg" width="32%" alt="HeadsUp: invite pages sent by text, with every RSVP tracked per guest. Open beta in Australia."/></a>
+  <a href="https://henners.io/projects#yeslane"><img src="assets/project-yeslane.svg" width="32%" alt="Yeslane: a white-label client portal for small marketing agencies. Coming soon."/></a>
+  <a href="https://henners.io/projects#scaffy"><img src="assets/project-scaffy.svg" width="32%" alt="Scaffy CMS: an open-source serverless headless CMS you self-host on AWS."/></a>
+</p>
+
+- **[HeadsUp](https://headsup.rsvp)** turns any plan into an invite page sent by text. Guests RSVP with no app and no account, and the host sees who's in, guest by guest. Waitlist to open beta in three months.
+- **[Yeslane](https://yeslane.app)** gives small agencies one branded place for approvals, chat, files, meetings and reports. Early access is open.
+- **[Scaffy CMS](https://henners.io/blog/introducing-scaffy/)** is an MIT-licensed headless CMS: define schemas in TypeScript, deploy once into your own AWS account. Paused while HeadsUp ships, with the whole build written up.
+
+## How I work
+
+<p align="center">
+  <img src="assets/steps.svg" width="100%" alt="How I work: 01 Sketch it, problem first, then a plan. 02 Build it, TypeScript end to end on AWS. 03 Ship it, in front of real people, then the write-up."/>
+</p>
+
+## The stack I actually ship with
+
+<p align="center">
+  <img src="assets/stack.svg" width="100%" alt="TypeScript, React, Astro, Vite, Node.js, AWS Lambda, DynamoDB, AWS CDK, Cognito, CloudFront and S3, Stripe, Zod, Vitest and GSAP"/>
+</p>
+
+## Fresh off the workbench
+
+- [HeadsUp, three months on: from a waitlist to open beta](https://henners.io/blog/headsup-waitlist-to-open-beta/)
+- [Introducing HeadsUp: invite pages that get everyone there](https://henners.io/blog/introducing-headsup/)
+- [One schema, two jobs: generating runtime validation from your types](https://henners.io/blog/one-schema-two-jobs/)
+
+More on **[henners.io/blog](https://henners.io/blog)**.
+
+<div align="center">
 <br/>
 
-## 📱 HeadsUp RSVP
+<a href="https://henners.io/contact"><img src="assets/outro.svg" width="100%" alt="Let's make something fun. Say hello at henners.io."/></a>
 
-> **Get everyone there.**
+Or connect on <a href="https://www.linkedin.com/in/henners-io/"><b>LinkedIn</b></a>.
 
-I'm the founder of **HeadsUp RSVP**, an RSVP app that turns "who's actually coming?" into a solved problem. Every guest gets a personalised invite page sent by text, and the host gets live per-guest tracking instead of a group-chat black hole.
-
-- 💬 **SMS-first** invites, because nobody opens the fifth app you make them download
-- 🎯 **Per-guest tracking**: sent, seen, replied, coming, with dietaries rolled up for the host
-- 🇦🇺 **Live Australia-wide** and open to everyone at **headsup.rsvp**
-- ⚡ Serverless TypeScript monorepo: React + Vite front, Lambda + DynamoDB back, one CDK stack
-
-<div align="center">
-
-<a href="https://headsup.rsvp"><img src="https://img.shields.io/badge/Send%20your%20next%20invite%20with%20HeadsUp%20%E2%86%92-FF3D8F?style=for-the-badge" alt="Send your next invite with HeadsUp"/></a>
-
-</div>
-
----
-
-## 🛠️ Previously: Scaffy
-
-A developer-first headless CMS you self-host on your own AWS account. Define your content in TypeScript, deploy once, run it for next to nothing. It's on the shelf while HeadsUp has my full attention, but the whole build is written up: the architecture, the AWS plumbing, and the decisions I got right and wrong.
-
-<a href="https://henners.io"><img src="https://img.shields.io/badge/Read%20the%20build%20log%20at%20henners.io%20%E2%86%92-FF3D8F?style=for-the-badge" alt="Read the build log at henners.io"/></a>
-
----
-
-## ⚙️ The stack I actually ship with
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=ts,nodejs,react,vite,sass&theme=dark" alt="TypeScript, Node.js, React, Vite, Sass"/>
-<br/>
-<img src="https://skillicons.dev/icons?i=aws,dynamodb,vitest,pnpm,githubactions&theme=dark" alt="AWS, DynamoDB, Vitest, pnpm, GitHub Actions"/>
-
-<br/><br/>
-
-TypeScript everywhere. AWS CDK for infra as real code. DynamoDB single-table design. <br/>
-Cognito for auth, CloudFront + S3 for the edge, and a bill that rounds to zero until users show up.
-
-</div>
-
----
-
-## 📊 Numbers
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=henry-d-huynh&hide_border=true&background=00000000&ring=FF3D8F&fire=D42871&currStreakLabel=FF3D8F&sideLabels=64748b&sideNums=FF3D8F&currStreakNum=FF3D8F&dates=64748b" alt="Contribution streak"/>
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=henry-d-huynh&bg_color=00000000&hide_border=true&color=64748b&line=FF3D8F&point=D42871&area=true&area_color=FF3D8F" width="92%" alt="Contribution activity graph"/>
-
-</div>
-
----
-
-## 💬 Let's talk
-
-Partnerships, press, or just want to swap serverless war stories? I'm always up for a chat.
-
-<div align="center">
-
-<a href="https://henners.io/contact"><img src="https://img.shields.io/badge/Get%20in%20touch%20%E2%86%92-FF3D8F?style=for-the-badge" alt="Get in touch"/></a>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FF3D8F&height=120&section=footer" width="100%" alt=""/>
+<sub>Art drawn by <a href="scripts/build.py"><code>scripts/build.py</code></a> in the look of <a href="https://henners.io">henners.io</a>.</sub>
 
 </div>
