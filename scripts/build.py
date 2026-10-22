@@ -237,15 +237,18 @@ def hero():
     return svg(w, h, "".join(body), MARK_CSS, "Hi, I'm Henners: full-stack developer in Melbourne. I design, build and ship products end to end.")
 
 
-def project_card(number, fill, colour, status, summary, logo, angle, delay, label):
-    """One project as a tilted brand-colour card with a hard shadow."""
+def project_card(number, fill, colour, status, summary, logo, angle, delay, label, ground=""):
+    """One project as a tilted brand-colour card with a hard shadow.
+    `ground` is extra layers painted over the fill, inside the outline."""
     w, h = 400, 316
     cw, ch = 340, 252
     x, y = 26, 26
     lines = summary.split("\n")
     inner = [
         f'<rect class="shadow" x="{x + 10}" y="{y + 10}" width="{cw}" height="{ch}" rx="24" fill="{INK}"/>',
-        f'<rect x="{x}" y="{y}" width="{cw}" height="{ch}" rx="24" fill="{fill}" stroke="{INK}" stroke-width="4"/>',
+        f'<rect x="{x}" y="{y}" width="{cw}" height="{ch}" rx="24" fill="{fill}"/>',
+        ground(x, y, cw, ch) if ground else "",
+        f'<rect x="{x}" y="{y}" width="{cw}" height="{ch}" rx="24" fill="none" stroke="{INK}" stroke-width="4"/>',
         text(DISPLAY, number, 38, x + 22, y + 54, colour),
     ]
     status_width = MONO.width(status, 12.5, 0.08) + 26
@@ -264,6 +267,58 @@ def project_card(number, fill, colour, status, summary, logo, angle, delay, labe
     return svg(w, h, body, "", label)
 
 
+YAY_MINT = "#2fe39a"
+YAY_SKY = "#4d7cff"
+YAY_ROSE = "#ff5c8a"
+YAY_BUTTER = "#ffd84d"
+RECEIPT = "M28 10H92V96L84 106L76 96L68 106L60 96L52 106L44 96L36 106L28 96Z"
+
+
+def yaysheet_ground(x, y, w, h):
+    """yaysheet's paper with a mint, sky and rose glow in three corners."""
+    glows = [("mint", YAY_MINT, 0.45, 0, 0, 0.45), ("sky", YAY_SKY, 0.4, 1, 0.3, 0.45), ("rose", YAY_ROSE, 0.4, 0.6, 1.1, 0.5)]
+    defs = "".join(
+        f'<radialGradient id="glow-{name}" gradientUnits="userSpaceOnUse" cx="{x + w * cx:.1f}" cy="{y + h * cy:.1f}" r="{math.hypot(w, h) * r:.1f}">'
+        f'<stop offset="0" stop-color="{colour}" stop-opacity="{alpha}"/><stop offset="1" stop-color="{colour}" stop-opacity="0"/></radialGradient>'
+        for name, colour, alpha, cx, cy, r in glows
+    )
+    return f"<defs>{defs}</defs>" + "".join(
+        f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="24" fill="url(#glow-{name})"/>' for name, *_ in glows
+    )
+
+
+def yaysheet_logo(x, y):
+    """yaysheet's logo, as on henners.io: the stamped receipt, then the
+    stacked wordmark with "yay" in the gradient over an ink outline and a
+    hard rose shadow."""
+    mark = (
+        f'<g transform="translate({x - 4} {y - 14}) scale(0.52)">'
+        f'<path d="{RECEIPT}" transform="translate(7 7)" fill="{YAY_ROSE}"/>'
+        f'<path d="{RECEIPT}" fill="#fffdf8" stroke="{INK}" stroke-width="6" stroke-linejoin="round"/>'
+        f'<rect x="38" y="22" width="30" height="6" rx="3" fill="{INK}"/>'
+        f'<rect x="38" y="34" width="44" height="6" rx="3" fill="#77738a"/>'
+        f'<line x1="38" y1="50" x2="82" y2="50" stroke="{INK}" stroke-width="2.5" stroke-dasharray="4 3"/>'
+        f'<g transform="rotate(-14 60 72)">'
+        f'<rect x="12" y="56" width="96" height="34" rx="8" fill="{YAY_BUTTER}" stroke="{INK}" stroke-width="5"/>'
+        f'<rect x="17" y="61" width="86" height="24" rx="5" fill="none" stroke="{INK}" stroke-width="2"/>'
+        + text(DISPLAY, "YAY!", 24, 60, 81, INK, 0.04, "middle")
+        + "</g></g>"
+    )
+    wx, size = x + 68, 40
+    yay_y = y + 26
+    gradient = (
+        f'<defs><linearGradient id="yay" gradientUnits="userSpaceOnUse" x1="{wx}" y1="0" x2="{wx + DISPLAY.width("yay", size, -0.035)}" y2="0">'
+        f'<stop offset="0" stop-color="{YAY_MINT}"/><stop offset="0.55" stop-color="{YAY_SKY}"/><stop offset="1" stop-color="{YAY_ROSE}"/></linearGradient></defs>'
+    )
+    word = (
+        text(DISPLAY, "yay", size, wx + 2, yay_y + 2, YAY_ROSE, -0.035, extra=f'stroke="{YAY_ROSE}" stroke-width="4" stroke-linejoin="round"')
+        + text(DISPLAY, "yay", size, wx, yay_y, INK, -0.035, extra=f'stroke="{INK}" stroke-width="4" stroke-linejoin="round"')
+        + text(DISPLAY, "yay", size, wx, yay_y, "url(#yay)", -0.035)
+        + text(DISPLAY, "sheet", 27, wx, yay_y + 26, INK, -0.035)
+    )
+    return gradient + mark + word
+
+
 def projects():
     cards = {
         "headsup": project_card(
@@ -278,11 +333,18 @@ def projects():
             lambda x, y: nested("yeslane-logo-white.svg", x - 2, y - 14, 168, 79),
             2, 0.25, "Yeslane: a white-label client portal for small marketing agencies. Coming soon.",
         ),
+        "yaysheet": project_card(
+            "03", PAPER, INK, "COMING SOON",
+            "Interactive quotes clients pick\nfrom, ask about and accept.",
+            yaysheet_logo,
+            3, 0.4, "yaysheet: interactive quotes clients pick from, ask about and accept in a tap. Coming soon.",
+            ground=yaysheet_ground,
+        ),
         "scaffy": project_card(
-            "03", CYAN, INK, "OPEN SOURCE, MIT",
+            "04", CYAN, INK, "OPEN SOURCE, MIT",
             "A serverless headless CMS you\nself-host on your own AWS.",
             lambda x, y: text(DISPLAY, "Scaffy CMS", 54, x, y + 46, INK, -0.02),
-            -2, 0.4, "Scaffy CMS: an open-source serverless headless CMS you self-host on AWS. Paused.",
+            -2, 0.55, "Scaffy CMS: an open-source serverless headless CMS you self-host on AWS. Paused.",
         ),
     }
     return cards
