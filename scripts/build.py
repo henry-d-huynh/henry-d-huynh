@@ -319,6 +319,29 @@ def yaysheet_logo(x, y):
     return gradient + mark + word
 
 
+STRENGTHEN_LIME = "#c6f432"
+
+
+def strengthen_logo(x, y):
+    """Strengthen's logo, as on henners.io: the consistency-grid mark (nine
+    day squares, the logged ones climbing a step at a time) in its indigo to
+    pink gradient, beside the name."""
+    cells = "".join(
+        f'<rect x="{12 + (i % 3) * 14}" y="{12 + (i // 3) * 14}" width="12" height="12" rx="3" fill="{WHITE}"'
+        + ("" if on else ' fill-opacity="0.28"')
+        + "/>"
+        for i, on in enumerate([0, 0, 1, 0, 1, 1, 1, 1, 1])
+    )
+    mark = (
+        '<defs><linearGradient id="strengthen" x1="0" y1="0" x2="1" y2="1">'
+        '<stop offset="0" stop-color="#6366f1"/><stop offset="0.55" stop-color="#a855f7"/><stop offset="1" stop-color="#ec4899"/></linearGradient></defs>'
+        f'<rect x="{x + 4}" y="{y - 2}" width="52" height="52" rx="13" fill="{INK}"/>'
+        f'<g transform="translate({x} {y - 6}) scale(0.8125)">'
+        f'<rect width="64" height="64" rx="15" fill="url(#strengthen)" stroke="{INK}" stroke-width="4"/>{cells}</g>'
+    )
+    return mark + text(DISPLAY, "Strengthen", 44, x + 66, y + 36, INK, -0.035)
+
+
 def projects():
     cards = {
         "headsup": project_card(
@@ -340,11 +363,17 @@ def projects():
             3, 0.4, "yaysheet: interactive quotes clients pick from, ask about and accept in a tap. Coming soon.",
             ground=yaysheet_ground,
         ),
+        "strengthen": project_card(
+            "04", STRENGTHEN_LIME, INK, "LIVE, FREE",
+            "A simple workout tracker: log\nevery set, watch the line go up.",
+            strengthen_logo,
+            -2, 0.55, "Strengthen: a simple workout tracker. Log every set at the gym and watch the line go up. Live and free to use.",
+        ),
         "scaffy": project_card(
-            "04", CYAN, INK, "OPEN SOURCE, MIT",
+            "05", CYAN, INK, "OPEN SOURCE, MIT",
             "A serverless headless CMS you\nself-host on your own AWS.",
             lambda x, y: text(DISPLAY, "Scaffy CMS", 54, x, y + 46, INK, -0.02),
-            -2, 0.55, "Scaffy CMS: an open-source serverless headless CMS you self-host on AWS. Paused.",
+            2, 0.7, "Scaffy CMS: an open-source serverless headless CMS you self-host on AWS. Paused.",
         ),
     }
     return cards
