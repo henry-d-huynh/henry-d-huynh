@@ -4,7 +4,7 @@
 
 </div>
 
-I'm Henry, a full-stack developer in Melbourne. I take products from a page of notes to something real people use: the database, the AWS plumbing, the app, and the landing page that sells it. Right now that's **[HeadsUp](https://headsup.rsvp)**, an RSVP app in open beta across Australia, **[Yeslane](https://yeslane.app)**, a client portal for marketing agencies, **[yaysheet](https://yaysheet.app)**, interactive quotes your clients say yay to, and **[Strengthen](https://strengthen.app)**, a simple workout tracker.
+I'm Henry, a full-stack developer in Melbourne. I take products from a page of notes to something real people use: the database, the AWS plumbing, the app, and the landing page that sells it. Right now that's **[HeadsUp](https://headsup.rsvp)**, an RSVP app in open beta across Australia, **[Yeslane](https://yeslane.app)**, a client portal for marketing agencies, **[yaysheet](https://yaysheet.app)**, interactive quotes your clients say yay to, **[Strengthen](https://strengthen.app)**, a simple workout tracker, and **[Smart Aleck](https://smartaleck.app)**, a memory game for anything you want to know by heart.
 
 ## Stuff I've shipped
 
@@ -13,6 +13,7 @@ I'm Henry, a full-stack developer in Melbourne. I take products from a page of n
   <a href="https://henners.io/projects#yeslane"><img src="assets/project-yeslane.svg" width="48%" alt="Yeslane: a white-label client portal for small marketing agencies. Coming soon."/></a>
   <a href="https://henners.io/projects#yaysheet"><img src="assets/project-yaysheet.svg" width="48%" alt="yaysheet: interactive quotes clients pick from, ask about and accept in a tap. Coming soon."/></a>
   <a href="https://henners.io/projects#strengthen"><img src="assets/project-strengthen.svg" width="48%" alt="Strengthen: a simple workout tracker. Log every set at the gym and watch the line go up. Live and free to use."/></a>
+  <a href="https://henners.io/projects#smartaleck"><img src="assets/project-smartaleck.svg" width="48%" alt="Smart Aleck: a memory game for anything you want to know by heart, from birthdays to capitals. Live and free for now."/></a>
   <a href="https://henners.io/projects#scaffy"><img src="assets/project-scaffy.svg" width="48%" alt="Scaffy CMS: an open-source serverless headless CMS you self-host on AWS."/></a>
 </p>
 
@@ -20,6 +21,7 @@ I'm Henry, a full-stack developer in Melbourne. I take products from a page of n
 - **[Yeslane](https://yeslane.app)** gives small agencies one branded place for approvals, chat, files, meetings and reports. Early access is open.
 - **[yaysheet](https://yaysheet.app)** turns a quote into an interactive page sent as a link. Clients pick between options, ask about any line and accept in a tap, and you see every open and click. Coming soon, with a list to join.
 - **[Strengthen](https://strengthen.app)** is the workout tracker I built to track my own progress. Log each set with a one-tap verdict for next time, keep machine settings handy and watch the trend lines climb. Live and free to use, and it works with no signal.
+- **[Smart Aleck](https://smartaleck.app)** is a memory game for anything you want to know by heart: birthdays, capitals, vocabulary, faces. Make a deck with your own fields, then play quick rounds until it sticks, with ten games, learning paths and spaced review. Live and free for now.
 - **[Scaffy CMS](https://henners.io/blog/introducing-scaffy/)** is an MIT-licensed headless CMS: define schemas in TypeScript, deploy once into your own AWS account. Paused while HeadsUp ships, with the whole build written up.
 
 ## How I work

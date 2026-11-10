@@ -342,6 +342,32 @@ def strengthen_logo(x, y):
     return mark + text(DISPLAY, "Strengthen", 44, x + 66, y + 36, INK, -0.035)
 
 
+SMART_ALECK_SUN = "#ffd23f"
+SMART_ALECK_PINK = "#ff2e88"
+SMART_ALECK_INK = "#1d1330"
+SMART_ALECK_CREAM = "#fffdf8"
+
+
+def smart_aleck_logo(x, y):
+    """Smart Aleck's logo, as on henners.io: Aleck, its mascot, side-eyeing
+    on his hot pink (smart-aleck/website/public/favicon.svg), beside the name."""
+    strokes = "".join(
+        f'<path d="{d}" fill="none" stroke="{SMART_ALECK_INK}" stroke-width="7" stroke-linecap="round"/>'
+        for d in ("M17 33 L42 36", "M57 27 Q70 15 84 26", "M34 77 Q56 86 74 68")
+    )
+    eyes = "".join(
+        f'<circle cx="{cx}" cy="50" r="13" fill="{SMART_ALECK_CREAM}" stroke="{SMART_ALECK_INK}" stroke-width="4"/>'
+        f'<circle cx="{cx + 6}" cy="50" r="6.5" fill="{SMART_ALECK_INK}"/>'
+        for cx in (31, 69)
+    )
+    mark = (
+        f'<rect x="{x + 4}" y="{y - 2}" width="52" height="52" rx="13" fill="{INK}"/>'
+        f'<g transform="translate({x} {y - 6}) scale(0.52)">'
+        f'<rect width="100" height="100" rx="22" fill="{SMART_ALECK_PINK}" stroke="{INK}" stroke-width="6"/>{strokes}{eyes}</g>'
+    )
+    return mark + text(DISPLAY, "Smart Aleck", 44, x + 66, y + 36, INK, -0.035)
+
+
 def projects():
     cards = {
         "headsup": project_card(
@@ -369,11 +395,17 @@ def projects():
             strengthen_logo,
             -2, 0.55, "Strengthen: a simple workout tracker. Log every set at the gym and watch the line go up. Live and free to use.",
         ),
+        "smartaleck": project_card(
+            "05", SMART_ALECK_SUN, INK, "LIVE, FREE FOR NOW",
+            "A memory game for anything you\nwant to know by heart.",
+            smart_aleck_logo,
+            2, 0.7, "Smart Aleck: a memory game for anything you want to know by heart, from birthdays to capitals. Live and free for now.",
+        ),
         "scaffy": project_card(
-            "05", CYAN, INK, "OPEN SOURCE, MIT",
+            "06", CYAN, INK, "OPEN SOURCE, MIT",
             "A serverless headless CMS you\nself-host on your own AWS.",
             lambda x, y: text(DISPLAY, "Scaffy CMS", 54, x, y + 46, INK, -0.02),
-            2, 0.7, "Scaffy CMS: an open-source serverless headless CMS you self-host on AWS. Paused.",
+            -2, 0.85, "Scaffy CMS: an open-source serverless headless CMS you self-host on AWS. Paused.",
         ),
     }
     return cards
